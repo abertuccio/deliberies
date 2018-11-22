@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import $ from 'jquery';
 import { Elegi } from './Elegi'
 import { Pedidos } from './Pedidos'
-import { Datos } from './Datos' //algun agregado
+import { Datos } from './Datos' //algun agregado ???
 
 class App extends Component {
   constructor(props) {
