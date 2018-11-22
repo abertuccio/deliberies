@@ -1,0 +1,812 @@
+[
+    {
+        "idShop": 57987,
+        "name": "1893 Pizza & Pasta",
+        "nameEncoded": "1893-pizza-pasta-menu",
+        "description": "Pizzas, Pastas, Empanadas"
+    },
+    {
+        "idShop": 2546,
+        "name": "Agatta",
+        "nameEncoded": "agatta-menu",
+        "description": "Milanesas, Pastas, Carnes"
+    },
+    {
+        "idShop": 31903,
+        "name": "Agustina Almagro",
+        "nameEncoded": "agustina-almagro-menu",
+        "description": "Parrilla, Pollo, Pescados y Mariscos"
+    },
+    {
+        "idShop": 31903,
+        "name": "Agustina Almagro",
+        "nameEncoded": "agustina-almagro-menu",
+        "description": "Parrilla, Pollo, Pescados y Mariscos"
+    },
+    {
+        "idShop": 62806,
+        "name": "Allegro Bar & Company",
+        "nameEncoded": "allegro-bar-company-menu",
+        "description": "Pizzas, Comida Mexicana, Bebidas"
+    },
+    {
+        "idShop": 58010,
+        "name": "Almacén & Restaurant Suipacha",
+        "nameEncoded": "almacen-restaurant-suipacha-menu",
+        "description": "Parrilla, Postres, Milanesas"
+    },
+    {
+        "idShop": 55423,
+        "name": "Almacén de Pizzas Recoleta",
+        "nameEncoded": "almacen-de-pizzas-recoleta-menu",
+        "description": "Pizzas, Bebidas, Empanadas"
+    },
+    {
+        "idShop": 17173,
+        "name": "Amelia's Balvanera",
+        "nameEncoded": "amelias-balvanera-menu",
+        "description": "Menú del día, Pizzas, Empanadas"
+    },
+    {
+        "idShop": 48327,
+        "name": "Amelia's Barrio Norte",
+        "nameEncoded": "amelias-barrio-norte-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 40807,
+        "name": "Ameno",
+        "nameEncoded": "ameno-menu",
+        "description": "Pastas, Pizzas, Ensaladas"
+    },
+    {
+        "idShop": 39358,
+        "name": "Amore's",
+        "nameEncoded": "amores-menu",
+        "description": "Pizzas, Empanadas, Pastas"
+    },
+    {
+        "idShop": 4796,
+        "name": "Anastasia",
+        "nameEncoded": "anastasia-menu",
+        "description": "Pizzas, Empanadas, Pollo"
+    },
+    {
+        "idShop": 60070,
+        "name": "Andorra Almagro",
+        "nameEncoded": "andorra-almagro-menu",
+        "description": "Bebidas, Cafetería, Parrilla"
+    },
+    {
+        "idShop": 60104,
+        "name": "Angus Parrilla",
+        "nameEncoded": "angus-parrilla-menu",
+        "description": "Carnes, Postres, Cafetería"
+    },
+    {
+        "idShop": 20105,
+        "name": "Antonia's",
+        "nameEncoded": "antonias-menu",
+        "description": "Empanadas, Pizzas, Pollo"
+    },
+    {
+        "idShop": 29581,
+        "name": "Aquiles Urquiza",
+        "nameEncoded": "aquiles-menu",
+        "description": "Milanesas, Empanadas, Pizzas"
+    },
+    {
+        "idShop": 41843,
+        "name": "Arenales Resto & Coffee",
+        "nameEncoded": "arenales-resto-coffee-menu",
+        "description": "Ensaladas, Sándwiches, Pastas"
+    },
+    {
+        "idShop": 41852,
+        "name": "Arenales Resto & Coffee Recoleta",
+        "nameEncoded": "arenales-resto-coffee-recoleta-menu",
+        "description": "Sándwiches, Pastas, Ensaladas"
+    },
+    {
+        "idShop": 41852,
+        "name": "Arenales Resto & Coffee Recoleta",
+        "nameEncoded": "arenales-resto-coffee-recoleta-menu",
+        "description": "Sándwiches, Pastas, Ensaladas"
+    },
+    {
+        "idShop": 41344,
+        "name": "Army",
+        "nameEncoded": "army-menu",
+        "description": "Menú del día, Pizzas, Empanadas"
+    },
+    {
+        "idShop": 63156,
+        "name": "Asado de Tira",
+        "nameEncoded": "asado-de-tira-menu",
+        "description": "Bebidas, Parrilla, Postres"
+    },
+    {
+        "idShop": 50111,
+        "name": "Astro Rey",
+        "nameEncoded": "astro-rey-menu",
+        "description": "Pastas, Postres, Empanadas"
+    },
+    {
+        "idShop": 62238,
+        "name": "Attraversiamo Canteen",
+        "nameEncoded": "attraversiamo-canteen-menu",
+        "description": "Sándwiches, Bebidas"
+    },
+    {
+        "idShop": 37904,
+        "name": "Ay! Miranda",
+        "nameEncoded": "ay-miranda-menu",
+        "description": "Milanesas, Hamburguesas, Pastas"
+    },
+    {
+        "idShop": 2203,
+        "name": "Babieca",
+        "nameEncoded": "babieca-menu",
+        "description": "Empanadas, Pizzas, Milanesas"
+    },
+    {
+        "idShop": 36725,
+        "name": "Babieca Parrilla",
+        "nameEncoded": "babieca-parrilla-menu",
+        "description": "Milanesas, Pollo, Carnes"
+    },
+    {
+        "idShop": 58549,
+        "name": "Baldini",
+        "nameEncoded": "baldini-menu",
+        "description": "Milanesas, Pizzas, Pollo"
+    },
+    {
+        "idShop": 41417,
+        "name": "Baltoni Almacén de Pastas",
+        "nameEncoded": "baltoni-almacen-de-pastas-menu",
+        "description": "Pastas, Pizzas, Menú del día"
+    },
+    {
+        "idShop": 38806,
+        "name": "Barocca Restó",
+        "nameEncoded": "barocca-resto-menu",
+        "description": "Pizzas, Tartas, Ensaladas"
+    },
+    {
+        "idShop": 45061,
+        "name": "Bedford Station Las Cañitas",
+        "nameEncoded": "bedford-station-las-canitas-menu",
+        "description": "Hamburguesas, Sándwiches, Desayunos"
+    },
+    {
+        "idShop": 56061,
+        "name": "Bilbo Café",
+        "nameEncoded": "bilbo-cafe-menu",
+        "description": "Sándwiches, Ensaladas, Hamburguesas"
+    },
+    {
+        "idShop": 55022,
+        "name": "Café Lobo Puerto Madero",
+        "nameEncoded": "cafe-lobo-puerto-madero-menu",
+        "description": "Cafetería, Bebidas, Desayunos"
+    },
+    {
+        "idShop": 62279,
+        "name": "Carne - Monserrat",
+        "nameEncoded": "carne-monserrat-menu",
+        "description": "Hamburguesas, Ensaladas, Bebidas"
+    },
+    {
+        "idShop": 2594,
+        "name": "Changir Hamburguesas y Lomitos",
+        "nameEncoded": "changir-hamburguesas-y-lomitos-menu",
+        "description": "Sushi, Arepas, Hamburguesas"
+    },
+    {
+        "idShop": 61697,
+        "name": "Che Sushi Microcentro",
+        "nameEncoded": "che-sushi-microcentro-menu",
+        "description": "Sushi, Pescados y Mariscos, Poke"
+    },
+    {
+        "idShop": 55474,
+        "name": "Costumbres criollas",
+        "nameEncoded": "costumbres-criollas-menu",
+        "description": "Bebidas, Empanadas, Postres"
+    },
+    {
+        "idShop": 32906,
+        "name": "Defensa Bar Restaurant",
+        "nameEncoded": "defensa-bar-restaurant-menu",
+        "description": "Milanesas, Pescados y Mariscos, Empanadas"
+    },
+    {
+        "idShop": 56049,
+        "name": "Diggs",
+        "nameEncoded": "diggs-menu",
+        "description": "Hamburguesas, Bebidas"
+    },
+    {
+        "idShop": 42224,
+        "name": "El Cisne",
+        "nameEncoded": "el-cisne-menu",
+        "description": "Milanesas, Pollo, Parrilla"
+    },
+    {
+        "idShop": 42224,
+        "name": "El Cisne",
+        "nameEncoded": "el-cisne-menu",
+        "description": "Milanesas, Pollo, Parrilla"
+    },
+    {
+        "idShop": 47559,
+        "name": "El Histórico San Telmo",
+        "nameEncoded": "el-historico-san-telmo-menu",
+        "description": "Milanesas, Pastas, Pollo"
+    },
+    {
+        "idShop": 61978,
+        "name": "El Noble Palermo",
+        "nameEncoded": "el-noble-palermo-menu",
+        "description": "Empanadas, Tartas, Pizzas"
+    },
+    {
+        "idShop": 39079,
+        "name": "Emiru Sushi Nikkei",
+        "nameEncoded": "emiru-sushi-nikkei-menu",
+        "description": "Sushi, Comida Japonesa, Comida Vegetariana"
+    },
+    {
+        "idShop": 44786,
+        "name": "Esquina Cortés",
+        "nameEncoded": "esquina-cortes-menu",
+        "description": "Hamburguesas, Sándwiches, Pollo"
+    },
+    {
+        "idShop": 60073,
+        "name": "Fabric Caballito Parque",
+        "nameEncoded": "fabric-caballito-parque-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 771,
+        "name": "Fabric Sushi",
+        "nameEncoded": "fabric-sushi-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 31468,
+        "name": "Fabric Sushi Caballito",
+        "nameEncoded": "fabric-sushi-caballito-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 17100,
+        "name": "Fabric Sushi Cabello",
+        "nameEncoded": "fabric-sushi-cabello-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 56122,
+        "name": "Fabric Sushi Coghlan Saavedra",
+        "nameEncoded": "fabric-sushi-coghlan-saavedra-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 34783,
+        "name": "Fabric Sushi Devoto - Villa Pueyrredón",
+        "nameEncoded": "fabric-sushi-devoto-villa-pueyrredon-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 44063,
+        "name": "Fabric Sushi Flores",
+        "nameEncoded": "fabric-sushi-flores-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 58221,
+        "name": "Fabric Sushi Nuñez",
+        "nameEncoded": "fabric-sushi-nunez-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 41147,
+        "name": "Fabric Sushi Palermo Hollywood",
+        "nameEncoded": "fabric-sushi-palermo-hollywood-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 50614,
+        "name": "Fabric Sushi Palermo Soho",
+        "nameEncoded": "fabric-sushi-palermo-soho-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 55853,
+        "name": "Fabric Sushi Recoleta",
+        "nameEncoded": "fabric-sushi-recoleta-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 49875,
+        "name": "Fabric Sushi Villa Crespo",
+        "nameEncoded": "fabric-sushi-villa-crespo-menu",
+        "description": "Sushi, Comida Japonesa, Pescados y Mariscos"
+    },
+    {
+        "idShop": 47853,
+        "name": "Fabric Sushi Villa Urquiza",
+        "nameEncoded": "fabric-sushi-villa-urquiza-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 18317,
+        "name": "Fechoria",
+        "nameEncoded": "fechoria-menu",
+        "description": "Pizzas, Milanesas, Pastas"
+    },
+    {
+        "idShop": 18317,
+        "name": "Fechoria",
+        "nameEncoded": "fechoria-menu",
+        "description": "Pizzas, Milanesas, Pastas"
+    },
+    {
+        "idShop": 28940,
+        "name": "Fly Sushi",
+        "nameEncoded": "fly-sushi-menu",
+        "description": "Sushi, Comida Japonesa, Woks"
+    },
+    {
+        "idShop": 54206,
+        "name": "Futu Sushi Mediodía",
+        "nameEncoded": "futu-sushi-mediodia-menu",
+        "description": "Comida Japonesa, Sushi, Woks"
+    },
+    {
+        "idShop": 30273,
+        "name": "Go in! Laprida",
+        "nameEncoded": "go-in-laprida-menu",
+        "description": "Bebidas, Cafetería, Pizzas"
+    },
+    {
+        "idShop": 40406,
+        "name": "Good Cholas Ramos Mejía",
+        "nameEncoded": "good-cholas-ramos-mejia-menu",
+        "description": "Carnes, Comida Peruana, Pollo"
+    },
+    {
+        "idShop": 58604,
+        "name": "Gott Cerveceria",
+        "nameEncoded": "gott-cerveceria-menu",
+        "description": "Hamburguesas, Sándwiches, Ensaladas"
+    },
+    {
+        "idShop": 38186,
+        "name": "Hana Sushi C.A.B.A",
+        "nameEncoded": "hana-sushi-caba-menu",
+        "description": "Sushi, Pescados y Mariscos, Ensaladas"
+    },
+    {
+        "idShop": 42789,
+        "name": "Hana Sushi Zona Norte",
+        "nameEncoded": "hana-sushi-zona-norte-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 56189,
+        "name": "Haroldo's Restó y Café",
+        "nameEncoded": "haroldo-s-resto-y-cafe-menu",
+        "description": "Pescados y Mariscos, Carnes, Cafetería"
+    },
+    {
+        "idShop": 31453,
+        "name": "Honorio Resto & Coffee",
+        "nameEncoded": "honorio-resto-coffee-menu",
+        "description": "Sándwiches, Pastas, Milanesas"
+    },
+    {
+        "idShop": 15780,
+        "name": "Itamae Sushi Palermo",
+        "nameEncoded": "itamae-sushi-palermo-menu",
+        "description": "Sushi, Comida Japonesa, Comida Peruana"
+    },
+    {
+        "idShop": 18316,
+        "name": "Kanú Sushi Delivery",
+        "nameEncoded": "kanu-sushi-bar-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 40373,
+        "name": "Kanú Sushi Ramos Mejía",
+        "nameEncoded": "kanu-sushi-ramos-mejia-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 31654,
+        "name": "Kanú Sushi Villa Urquiza",
+        "nameEncoded": "kanu-sushi-villa-urquiza-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 48564,
+        "name": "Kioto",
+        "nameEncoded": "kioto-menu",
+        "description": "Sushi, Pescados y Mariscos, Woks"
+    },
+    {
+        "idShop": 36041,
+        "name": "La Cocina de Ricky Viandas y Congelados",
+        "nameEncoded": "la-cocina-de-ricky-viandas-y-congelados-menu",
+        "description": "Viandas y Congelados, Pizzas, Pastas"
+    },
+    {
+        "idShop": 46040,
+        "name": "La Continental Avenida",
+        "nameEncoded": "la-continental-avenida-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 46037,
+        "name": "La Continental Callao 361",
+        "nameEncoded": "la-continental-callao-361-menu",
+        "description": "Pizzas, Empanadas, Postres"
+    },
+    {
+        "idShop": 46045,
+        "name": "La Continental Gallardo",
+        "nameEncoded": "la-continental-gallardo-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 46047,
+        "name": "La Continental Liniers",
+        "nameEncoded": "la-continental-liniers-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 46041,
+        "name": "La Continental Pompeya",
+        "nameEncoded": "la-continental-pompeya-menu",
+        "description": "Pizzas, Empanadas, Postres"
+    },
+    {
+        "idShop": 46050,
+        "name": "La Continental Primera Junta",
+        "nameEncoded": "la-continental-primera-junta-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 46054,
+        "name": "La Continental Serrano",
+        "nameEncoded": "la-continental-serrano-menu",
+        "description": "Pizzas, Empanadas, Postres"
+    },
+    {
+        "idShop": 46039,
+        "name": "La Continental Talcahuano",
+        "nameEncoded": "la-continental-talcahuano-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 46052,
+        "name": "La Continental Varela",
+        "nameEncoded": "la-continental-varela-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 33118,
+        "name": "La Estancia Palermo",
+        "nameEncoded": "la-estancia-palermo-menu",
+        "description": "Parrilla, Pollo, Pastas"
+    },
+    {
+        "idShop": 59824,
+        "name": "La Pausa",
+        "nameEncoded": "la-pausa-menu",
+        "description": "Hamburguesas, Empanadas, Sándwiches"
+    },
+    {
+        "idShop": 30267,
+        "name": "La Rumba",
+        "nameEncoded": "la-rumba-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 62426,
+        "name": "Lalo's BBQ",
+        "nameEncoded": "lalo-s-bbq-menu",
+        "description": "Sándwiches, Bebidas, Ensaladas"
+    },
+    {
+        "idShop": 54429,
+        "name": "Lateral Grill",
+        "nameEncoded": "lateral-grill-menu",
+        "description": "Parrilla, Ensaladas, Pastas"
+    },
+    {
+        "idShop": 57767,
+        "name": "Laureana Parrilla",
+        "nameEncoded": "laureana-parrilla-menu",
+        "description": "Parrilla, Postres, Ensaladas"
+    },
+    {
+        "idShop": 51804,
+        "name": "Le Pain Quotidien - Belgrano",
+        "nameEncoded": "le-pain-quotidien-belgrano-menu",
+        "description": "Postres, Desayunos, Sándwiches"
+    },
+    {
+        "idShop": 51793,
+        "name": "Le Pain Quotidien - Puerto Madero",
+        "nameEncoded": "le-pain-quotidien-puerto-madero-menu",
+        "description": "Postres, Sándwiches, Desayunos"
+    },
+    {
+        "idShop": 60891,
+        "name": "Le Pain Quotidien Distrito Arcos",
+        "nameEncoded": "le-pain-quotidien-distrito-arcos-menu",
+        "description": "Postres, Desayunos, Sándwiches"
+    },
+    {
+        "idShop": 55535,
+        "name": "Light Food",
+        "nameEncoded": "light-food-menu",
+        "description": "Viandas y Congelados, Hamburguesas, Milanesas"
+    },
+    {
+        "idShop": 52310,
+        "name": "Lis Restaurante Chino",
+        "nameEncoded": "lis-restaurante-chino-menu",
+        "description": "Comida China, Pescados y Mariscos, Pollo"
+    },
+    {
+        "idShop": 55021,
+        "name": "Lobo Café Palermo",
+        "nameEncoded": "lobo-cafe-palermo-menu",
+        "description": "Cafetería, Bebidas, Desayunos"
+    },
+    {
+        "idShop": 60268,
+        "name": "Lola Mora Pizza Café",
+        "nameEncoded": "lola-mora-pizza-cafe-menu",
+        "description": "Carnes, Pizzas, Ensaladas"
+    },
+    {
+        "idShop": 29461,
+        "name": "Los 36 Billares",
+        "nameEncoded": "los-36-billares-menu",
+        "description": "Pizzas, Empanadas, Milanesas"
+    },
+    {
+        "idShop": 55850,
+        "name": "Marco Pollo Villa Crespo",
+        "nameEncoded": "marco-pollo-villa-crespo-menu",
+        "description": "Pollo, Menú del día, Bebidas"
+    },
+    {
+        "idShop": 49841,
+        "name": "Mi Huarique",
+        "nameEncoded": "mi-huarique-menu",
+        "description": "Menú del día, Comida Peruana, Pescados y Mariscos"
+    },
+    {
+        "idShop": 61170,
+        "name": "Michelle",
+        "nameEncoded": "michelle-menu",
+        "description": "Pescados y Mariscos, Desayunos, Cafetería"
+    },
+    {
+        "idShop": 59469,
+        "name": "Milena Pastas - Recoleta",
+        "nameEncoded": "milena-pastas-recoleta-menu",
+        "description": "Pastas, Postres, Tartas"
+    },
+    {
+        "idShop": 61203,
+        "name": "Monday",
+        "nameEncoded": "monday-menu",
+        "description": "Hamburguesas, Postres, Pizzas"
+    },
+    {
+        "idShop": 55428,
+        "name": "Mr. Jordan House",
+        "nameEncoded": "mr-jordan-house-menu",
+        "description": "Hamburguesas, Bebidas, Sándwiches"
+    },
+    {
+        "idShop": 59209,
+        "name": "Murad Comida Arabe",
+        "nameEncoded": "murad-comida-arabe-menu",
+        "description": "Menú del día, Bebidas, Postres"
+    },
+    {
+        "idShop": 57896,
+        "name": "Negrita Resto Lounge",
+        "nameEncoded": "negrita-resto-lounge-menu",
+        "description": "Milanesas, Parrilla, Hamburguesas"
+    },
+    {
+        "idShop": 61096,
+        "name": "Parrilla Lo de Roly",
+        "nameEncoded": "parrilla-lo-de-roly-menu",
+        "description": "Bebidas, Sándwiches, Parrilla"
+    },
+    {
+        "idShop": 59701,
+        "name": "Parrilla Los Nenes",
+        "nameEncoded": "parrilla-los-nenes-menu",
+        "description": "Parrilla, Sándwiches, Bebidas"
+    },
+    {
+        "idShop": 31612,
+        "name": "Pastas Frescas El Águila",
+        "nameEncoded": "pastas-frescas-el-aguila-menu",
+        "description": "Pastas, Postres, Empanadas"
+    },
+    {
+        "idShop": 42438,
+        "name": "Pepper Palermo",
+        "nameEncoded": "pepper-palermo-menu",
+        "description": "Empanadas, Pizzas, Milanesas"
+    },
+    {
+        "idShop": 34166,
+        "name": "Pizza y Birra",
+        "nameEncoded": "pizza-y-birra-menu",
+        "description": "Pizzas, Milanesas, Empanadas"
+    },
+    {
+        "idShop": 54416,
+        "name": "Planes Bistró",
+        "nameEncoded": "planes-bistro-menu",
+        "description": "Bebidas, Carnes, Postres"
+    },
+    {
+        "idShop": 54416,
+        "name": "Planes Bistró",
+        "nameEncoded": "planes-bistro-menu",
+        "description": "Bebidas, Carnes, Postres"
+    },
+    {
+        "idShop": 49263,
+        "name": "Podesta",
+        "nameEncoded": "podesta-menu",
+        "description": "Pizzas, Hamburguesas, Pastas"
+    },
+    {
+        "idShop": 45596,
+        "name": "Primi Piatti - Recoleta",
+        "nameEncoded": "primi-piatti-recoleta-menu",
+        "description": "Milanesas, Parrilla, Ensaladas"
+    },
+    {
+        "idShop": 61481,
+        "name": "Puerto Viejo - Parrilla Restaurant",
+        "nameEncoded": "puerto-viejo-parrilla-restaurant-menu",
+        "description": "Pescados y Mariscos, Parrilla, Postres"
+    },
+    {
+        "idShop": 59680,
+        "name": "Resto Bar Sahores",
+        "nameEncoded": "resto-bar-sahores-menu",
+        "description": "Pizzas, Pastas, Bebidas"
+    },
+    {
+        "idShop": 59680,
+        "name": "Resto Bar Sahores",
+        "nameEncoded": "resto-bar-sahores-menu",
+        "description": "Pizzas, Pastas, Bebidas"
+    },
+    {
+        "idShop": 60495,
+        "name": "Romario Beruti",
+        "nameEncoded": "romario-beruti-menu",
+        "description": "Pizzas, Bebidas, Empanadas"
+    },
+    {
+        "idShop": 60499,
+        "name": "Romario Soler",
+        "nameEncoded": "romario-soler-menu",
+        "description": "Pizzas, Bebidas, Empanadas"
+    },
+    {
+        "idShop": 60491,
+        "name": "Romario Ugarteche",
+        "nameEncoded": "romario-ugarteche-menu",
+        "description": "Pizzas, Bebidas, Empanadas"
+    },
+    {
+        "idShop": 60492,
+        "name": "Romario Vicente",
+        "nameEncoded": "romario-vicente-menu",
+        "description": "Pizzas, Bebidas, Empanadas"
+    },
+    {
+        "idShop": 57001,
+        "name": "Ruedas de Hamburgo",
+        "nameEncoded": "ruedas-de-hamburgo-menu",
+        "description": "Bebidas, Postres, Carnes"
+    },
+    {
+        "idShop": 53187,
+        "name": "Smuki Helados Artesanales",
+        "nameEncoded": "smuki-helados-artesanales-menu",
+        "description": "Helados, Bebidas"
+    },
+    {
+        "idShop": 17915,
+        "name": "Sushipop",
+        "nameEncoded": "sushipop-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 50710,
+        "name": "Sushipop Downtown",
+        "nameEncoded": "sushipop-downtown-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 43334,
+        "name": "Sushipop Microcentro",
+        "nameEncoded": "sushipop-microcentro-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 50712,
+        "name": "Sushipop Recoleta",
+        "nameEncoded": "sushipop-recoleta-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 49707,
+        "name": "The Grand Sushi",
+        "nameEncoded": "the-grand-sushi-menu",
+        "description": "Sushi, Pescados y Mariscos, Comida Japonesa"
+    },
+    {
+        "idShop": 2198,
+        "name": "The Pick Market De María",
+        "nameEncoded": "the-pick-market-de-maria-menu",
+        "description": "Bebidas, Sándwiches"
+    },
+    {
+        "idShop": 55001,
+        "name": "The Pick Market Quintana",
+        "nameEncoded": "the-pick-market-quintana-menu",
+        "description": "Bebidas, Sándwiches"
+    },
+    {
+        "idShop": 2200,
+        "name": "The Pick Market Recoleta",
+        "nameEncoded": "the-pick-market-recoleta-menu",
+        "description": "Bebidas, Sándwiches"
+    },
+    {
+        "idShop": 55015,
+        "name": "The Pick Market Ugarteche",
+        "nameEncoded": "the-pick-market-ugarteche-menu",
+        "description": "Bebidas, Sándwiches"
+    },
+    {
+        "idShop": 53035,
+        "name": "Un Dos Crêpes Mercado",
+        "nameEncoded": "un-dos-crepes-mercado-menu",
+        "description": "Pescados y Mariscos, Lomitos, Pollo"
+    },
+    {
+        "idShop": 58510,
+        "name": "Waffle's House Palermo",
+        "nameEncoded": "waffle-s-house-palermo-menu",
+        "description": "Bebidas, Hamburguesas, Cafetería"
+    },
+    {
+        "idShop": 58370,
+        "name": "Warren Buffet",
+        "nameEncoded": "warren-buffet-menu",
+        "description": "Carnes, Milanesas, Ensaladas"
+    }
+]

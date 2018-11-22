@@ -1,0 +1,348 @@
+[
+    {
+        "group": "Entradas",
+        "items": [
+            {
+                "idItem": "3605803",
+                "name": "Pan de pizza",
+                "description": "",
+                "price": "poio"
+            },
+            {
+                "idItem": "3605808",
+                "name": "1/2 pan de pizza",
+                "description": "",
+                "price": "95.03"
+            },
+            {
+                "idItem": "3605810",
+                "name": " Fainá",
+                "description": "",
+                "price": "0.20"
+            },
+            {
+                "idItem": "3605813",
+                "name": "Fainá rellena",
+                "description": "",
+                "price": "0.1"
+            },
+            {
+                "idItem": "3605815",
+                "name": "Fainá con burrata, vegetales de estación, rúcula y reducción balsámica.",
+                "description": "",
+                "price": "1220.55"
+            }
+        ]
+    },
+    {
+        "group": "Pizzas clásicas",
+        "items": [
+            {
+                "idItem": "3605581",
+                "name": " Pizza margarita (muzzarella)",
+                "description": "",
+                "price": "239"
+            },
+            {
+                "idItem": "3605584",
+                "name": " Pizza margarita con jamón y morrones",
+                "description": "",
+                "price": "292"
+            },
+            {
+                "idItem": "3605585",
+                "name": " Pizza capresse",
+                "description": "Muzzarella, tomate y albahaca.",
+                "price": "287"
+            },
+            {
+                "idItem": "3605588",
+                "name": "Pizza con anchoas",
+                "description": "Salsa de tomate, anchoas, provolone rallado y orégano.",
+                "price": "265"
+            },
+            {
+                "idItem": "3605591",
+                "name": "Pizza calabresa",
+                "description": "Muzzarella, longaniza y morrones.",
+                "price": "312"
+            },
+            {
+                "idItem": "3605592",
+                "name": " Pizza napolitana",
+                "description": "Muzzarella, tomate, ajo, perejil y provolone rallado.",
+                "price": "292"
+            },
+            {
+                "idItem": "3605593",
+                "name": "Pizza napolitana con jamón",
+                "description": "",
+                "price": "302"
+            },
+            {
+                "idItem": "3605597",
+                "name": "Pizza fugazza",
+                "description": "Cebolla, provolone y aceite de oliva.",
+                "price": "289"
+            },
+            {
+                "idItem": "3605599",
+                "name": "Pizza fugazza rellena",
+                "description": "Con jamón y muzzarella.",
+                "price": "332"
+            },
+            {
+                "idItem": "3605602",
+                "name": "Pizza fugazzeta",
+                "description": "Cebolla, muzzarella y aceite de oliva.",
+                "price": "247"
+            },
+            {
+                "idItem": "3605604",
+                "name": "Pizza fugazzeta con champignones",
+                "description": "Cebolla con champignones.",
+                "price": "343"
+            },
+            {
+                "idItem": "3605605",
+                "name": " Pizza con provolone",
+                "description": "",
+                "price": "312"
+            },
+            {
+                "idItem": "3605607",
+                "name": "Pizza con tomates secos y rúcula",
+                "description": "",
+                "price": "343"
+            },
+            {
+                "idItem": "3605613",
+                "name": "Pizza Aglio e olio",
+                "description": "Salsa de tomate, rodajas de tomate natural, albahaca, provolone rallado y provenzal.",
+                "price": "288"
+            },
+            {
+                "idItem": "3605617",
+                "name": " Pizza Montecattini",
+                "description": "Muzzarella, jamón crudo, rúcula, aceite de oliva y pimienta.",
+                "price": "343"
+            },
+            {
+                "idItem": "3605622",
+                "name": "Pizza Siciliana",
+                "description": "Muzzarella, provolone, ajíes en vinagre y longaniza.",
+                "price": "323"
+            }
+        ]
+    },
+    {
+        "group": "Pizzas especiales",
+        "items": [
+            {
+                "idItem": "3605752",
+                "name": "Pizza con vegetales de estación",
+                "description": "Muzzarella y vegetales.",
+                "price": "343"
+            },
+            {
+                "idItem": "3605766",
+                "name": "Pizza muzzarella ahumada",
+                "description": "",
+                "price": "312"
+            },
+            {
+                "idItem": "3605775",
+                "name": "Pizza con queso de cabra",
+                "description": "Muzzarella, queso de cabra, tomates secos y albahaca.",
+                "price": "364"
+            },
+            {
+                "idItem": "3605781",
+                "name": "Pizza de cebollas confitadas",
+                "description": "Cebollas confitadas, queso brie, pasas y nueces.",
+                "price": "400"
+            },
+            {
+                "idItem": "3605787",
+                "name": "Pizza con tomates caramelizados",
+                "description": "Tomates caramelizados, bocconcini y rúcula.",
+                "price": "400"
+            },
+            {
+                "idItem": "3605793",
+                "name": "Pizza con espinaca",
+                "description": "Con queso de cabra, panceta y huevo a 63°.",
+                "price": "400"
+            },
+            {
+                "idItem": "3605800",
+                "name": "Pizza portobellos",
+                "description": "Salteado de cebolla colorada, portobellos y panceta con brotes.",
+                "price": "400"
+            },
+            {
+                "idItem": "3605801",
+                "name": "Pizza burrata",
+                "description": "Con texturas de tomates, rúcula, jamón crudo y reducción de aceto.",
+                "price": "438"
+            }
+        ]
+    },
+    {
+        "group": "Ensaladas",
+        "items": [
+            {
+                "idItem": "3605816",
+                "name": "Ensalada Caesar",
+                "description": "Mix de hojas, pollo, croutones y salsa caesar.",
+                "price": "242"
+            },
+            {
+                "idItem": "3605818",
+                "name": "Ensalada caprese",
+                "description": "Muzzarella, tomate y albahaca.",
+                "price": "196"
+            },
+            {
+                "idItem": "3605821",
+                "name": "Ensalada con manzanas, queso azul, vegetales de estación y almendras garrapiñadas",
+                "description": "",
+                "price": "242"
+            }
+        ]
+    },
+    {
+        "group": "Calzones",
+        "items": [
+            {
+                "idItem": "3605822",
+                "name": "Calzone napolitano chico",
+                "description": "",
+                "price": "260"
+            },
+            {
+                "idItem": "3605823",
+                "name": "Calzone napolitano grande",
+                "description": "",
+                "price": "327"
+            }
+        ]
+    },
+    {
+        "group": "Empanadas",
+        "items": [
+            {
+                "idItem": "3605824",
+                "name": " Empanada criolla de calle cortada a cuchillo",
+                "description": "",
+                "price": "55"
+            },
+            {
+                "idItem": "3605825",
+                "name": " Empanada de jamón y queso",
+                "description": "",
+                "price": "50"
+            },
+            {
+                "idItem": "3605826",
+                "name": " Empanada de queso y cebolla",
+                "description": "",
+                "price": "50"
+            },
+            {
+                "idItem": "3605827",
+                "name": "Empanada de muzzarella, tomate y albahaca",
+                "description": "",
+                "price": "50"
+            },
+            {
+                "idItem": "3605828",
+                "name": "Empanada humita (choclo)",
+                "description": "",
+                "price": "50"
+            }
+        ]
+    },
+    {
+        "group": "Pastas",
+        "items": [
+            {
+                "idItem": "3611410",
+                "name": "Penne all´arrabiata",
+                "description": "",
+                "price": "237"
+            },
+            {
+                "idItem": "3611413",
+                "name": "Spaghetti con langostinos",
+                "description": "Ajo, perejil, salsa de tomate y langostinos.",
+                "price": "292"
+            },
+            {
+                "idItem": "3611416",
+                "name": "Ñoquis de papa con salsa bolognesa",
+                "description": "",
+                "price": "266"
+            },
+            {
+                "idItem": "3611418",
+                "name": "Ñoquis de rúcula con salsa bolognesa",
+                "description": "",
+                "price": "266"
+            },
+            {
+                "idItem": "3611423",
+                "name": "Sorrentinos de jamón y muzzarella con salsa helio way",
+                "description": "Crema, concassé de tomate y albahaca.",
+                "price": "283"
+            },
+            {
+                "idItem": "3611425",
+                "name": "Canelones de verdura con salsa rosa",
+                "description": "",
+                "price": "266"
+            },
+            {
+                "idItem": "3611427",
+                "name": "Malfatti con salsa rosa y pesto",
+                "description": "",
+                "price": "273"
+            },
+            {
+                "idItem": "3611430",
+                "name": "Ravioles de calabaza a la manteca de salvia",
+                "description": "",
+                "price": "260"
+            },
+            {
+                "idItem": "3611433",
+                "name": "Pasta rellena de muzzarella ahumada y champignon",
+                "description": "Con salsa rossa y pesto.",
+                "price": "294"
+            },
+            {
+                "idItem": "3611434",
+                "name": "Tagliatteli con mix de hongos y perfume de trufa",
+                "description": "",
+                "price": "301"
+            }
+        ]
+    },
+    {
+        "group": "Postres",
+        "items": [
+            {
+                "idItem": "3610015",
+                "name": "Flan caserao",
+                "description": "",
+                "price": "90"
+            },
+            {
+                "idItem": "3610016",
+                "name": "Panqueque con dulce de leche",
+                "description": "",
+                "price": "102"
+            }
+        ]
+    }
+]

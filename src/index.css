@@ -1,14 +1,198 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  overflow-y:scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.header{
+  background-color: rgb(41, 46, 71);
+  color: #FFF;
+}
+
+.titulo{
+  font-size: 26px;
+}
+
+.menu{
+  padding: 6px;
+}
+
+.botones{
+  background-color: rgb(81, 175, 162) !important;
+  border-color: rgb(81, 175, 162) !important;
+  padding: 1px 7px !important;
+}
+
+.header .botones.active{
+  background-color: rgb(226, 225, 225) !important;
+  border-color: rgb(226, 225, 225)!important;
+  color: #000 !important;
+}
+
+.stageContainer{
+  margin-top: 19px;
+}
+
+.stageContainer h5{
+  font-weight:bold;
+  margin-bottom: 15px;  
+}
+
+
+/* ELEGI */
+
+.formularioBusqueda{
+  background-color: #e6e6e6;
+  padding: 7px 29px 18px 29px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}    
+.formularioBusqueda label{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom:0px; 
+}
+
+/*DELIVERIES*/
+
+.p-2.deliverShop {
+  width: 221px;
+  margin-bottom: 20px;
+  padding: 0px !important;
+  font-size: 14px;
+}
+
+.deliverShop.addMargin{
+margin-left: 60px;
+}
+
+.deliverShop .deliverName{
+  padding: 5px; 
+  color: #FFF;
+}
+
+.deliverShop .card-body{
+  background-color: #f1f8ff;
+  padding: 3px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deliverShop .realizarPedido{
+  color: #1395c7;
+  background-color: #f1f8ff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+.deliverShop  .realizarPedido:hover{
+  color: #0b5a77
+}
+
+/*PEDIDOS*/
+
+#orderGroup{
+  border: none;
+  padding: 0px;
+}
+
+#orderGroup .orderItem.active{
+background-color: #ffffff;
+color: #999999;
+border: 1px solid #ddd;
+border-right-style:none; 
+}
+
+#orderGroup .orderItem.active:focus{
+  outline:none;  
+}
+
+#orderGroup .orderItem{
+  cursor: pointer;
+  color: #00bae4;
+  border-right:1px solid #ddd;
+  background-color: #FFF;
+  font-size: 13px
+}
+
+#orderGroup .orderItem:hover{
+  color: #0087a5;
+}
+
+#orderGroup .orderItem.active:hover{
+  color: #999999;
+}
+
+#mealMenu td{
+padding: 2px;
+font-size: 13px;
+vertical-align: middle !important;
+}
+
+
+#mealMenu .itemDetail{
+  color: rgb(61, 61, 196);
+margin-right: 7px;
+}
+  
+  #mealMenu .itemNote{
+    color: rgb(61, 196, 185)
+}
+
+#mealOrder thead{
+  background-color: rgb(7, 113, 204);
+  color: #FFF;
+}
+
+#mealOrder td,#mealOrder th{
+  padding: 2px;
+  font-size: 13px;
+  border: 1px solid #d2d2d2;
+  vertical-align: middle !important;
+}
+
+#mealOrder .quantity{
+  font-size: inherit;
+  padding: 0px 7px;
+}
+
+#mealOrder .total{
+  font-weight:bold;
+font-size: 15px;
+background-color: rgb(209, 209, 209);
+}
+
+#mealOrder .removeItem{
+color: rgb(230, 0, 0);
+margin-right: 5px;
+cursor: pointer;
+}
+
+#mealOrder .removeItem:hover{
+  color: rgb(179, 0, 0);
+}
+
+.buttonsOrder{
+  text-align: right;
+
+}
+
+.buttonsOrder .back{
+  float: left;
+}
+
+.addProductButton{
+  color: #009c41;
+  cursor: pointer;
+}
+
+.addProductButton:hover{
+  color: #038037;
+}
+
+
+/*DATOS*/
+
+.deliverOrderForm{
+  padding: 30px;
+  background-color: #d8d8d8;
 }
