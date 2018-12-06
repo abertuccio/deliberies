@@ -12,3 +12,5 @@ To start the poject in a local server, run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Live version here https://andresbertuccio.000webhostapp.com/
