@@ -38,7 +38,7 @@ export class Deliveries extends Component {
               </div>
               <div className="card-footer bg-transparent realizarPedido"
                 onClick={() => this.props.handlePerformOrder(e.idShop, e.nameEncoded)}>
-                Realizar Pedido
+                Make an order
                             </div>
             </div>
           ) : ""}

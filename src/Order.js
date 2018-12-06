@@ -19,9 +19,9 @@ export class Order extends Component {
       <table className="table table-striped" id="mealOrder">
         <thead>
           <tr>
-            <th style={{ width: '50%' }}>Producto</th>
-            <th style={{ width: '10%' }}>Cantidad</th>
-            <th style={{ width: '20%' }}>Precio unitario</th>
+            <th style={{ width: '50%' }}>Product</th>
+            <th style={{ width: '10%' }}>Amount</th>
+            <th style={{ width: '20%' }}>Price</th>
             <th style={{ width: '20%' }}>Subtotal</th>
           </tr>
         </thead>

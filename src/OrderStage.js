@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap/dist/js/bootstrap.min.js';
 
 import { Order } from './Order'
 import { FaArrowCircleRight, FaSearchPlus } from 'react-icons/fa'
 
-export class Pedidos extends Component {
+export class OrderStage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,9 +56,9 @@ export class Pedidos extends Component {
         $('#exampleModalLong').modal('show');
       })
 
-    $("body").tooltip({
-      selector: '[data-toggle="tooltip"]'
-    });
+    // $("body").tooltip({
+    //   selector: '[data-toggle="tooltip"]'
+    // });
 
   }
 
@@ -70,7 +70,7 @@ export class Pedidos extends Component {
 
     return (
       <div className="container stageContainer pedidos">
-        <h5>Realizá tu pedido!</h5>
+        <h5>Make your order!</h5>
         <div className="row">
           <div className="col-6">
             {(this.state.isDeliveryLoaded) ?
@@ -132,10 +132,10 @@ export class Pedidos extends Component {
               <div className="col-8">
               </div>
               <div className="col-4">
-                <button onClick={() => this.props.handleChangeActiveStage(0)} type="button" className="btn btn-secondary btn-sm back">Atrás</button>
+                <button onClick={() => this.props.handleChangeActiveStage(0)} type="button" className="btn btn-secondary btn-sm back">Back</button>
                 <button onClick={(!this.props.order.length) ? () => { } : () => this.props.handleChangeActiveStage(2)}
                   type="button"
-                  className={"btn btn-secondary btn-sm forward " + ((!this.props.order.length) ? "disabled" : "")} >Continuar</button>
+                  className={"btn btn-secondary btn-sm forward " + ((!this.props.order.length) ? "disabled" : "")} >Next</button>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Deliveries } from './Deliveries'
 import $ from 'jquery';
 
-export class Elegi extends Component {
+export class PickStage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -74,26 +74,26 @@ export class Elegi extends Component {
   render() {
     return (
       <div className="container stageContainer eleji">
-        <h5>Filtros:</h5>
+        <h5>Filters:</h5>
         <div className="row formularioBusqueda">
           <div className="col">
-            <label htmlFor="nameSearch">Nombre:</label>
+            <label htmlFor="nameSearch">Name:</label>
             <input
               type="text"
               className="form-control col"
               id="nameSearch"
-              placeholder="Nombre:"
+              placeholder="Name:"
               value={this.state.searchName}
               onChange={this.handleChangeSearchName}
             />
           </div>
           <div className="col">
-            <label htmlFor="descriptionSearch">Descripción:</label>
+            <label htmlFor="descriptionSearch">Description:</label>
             <input
               type="text"
               className="form-control col"
               id="descriptionSearch"
-              placeholder="Descripción:"
+              placeholder="Description:"
               value={this.state.searchDescription}
               onChange={this.handleChangeSearchDescription}
             />
@@ -107,7 +107,7 @@ export class Elegi extends Component {
               deliveries={this.state.deliveries}
               searchName={this.state.searchName}
               searchDescription={this.state.searchDescription}
-            /> : "Cargando..."
+            /> : "Loading..."
           }
         </div>
       </div>

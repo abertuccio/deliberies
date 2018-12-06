@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import $ from 'jquery';
-import { Elegi } from './Elegi'
-import { Pedidos } from './Pedidos'
-import { Datos } from './Datos' //algun
+import { PickStage } from './PickStage'
+import { OrderStage } from './OrderStage'
+import { PersonalInformation } from './PersonalInformation'
 
 class App extends Component {
   constructor(props) {
@@ -14,20 +14,22 @@ class App extends Component {
       order: [],
       totalAmount: 0,
       personalInformation: {
-        "nombre": "",
-        "apellido": "",
-        "direccion": "",
-        "telefono": "",
+        "firstName": "",
+        "lastName": "",
+        "address": "",
+        "phoneNumber": "",
         "email": ""
       },
       isOrderAvailible: false,
     }
   }
 
-  checkIfOrderAvailible = (newDatos) => {
-    this.setState({ isOrderAvailible: !Object.values(newDatos)
-                                      .some(e => !e) && 
-                                      this.state.order.concat.length>0 })
+  checkIfOrderAvailible = (newData) => {
+    this.setState({
+      isOrderAvailible: !Object.values(newData)
+        .some(e => !e) &&
+        this.state.order.concat.length > 0
+    })
   }
 
   handleChangeActiveStage = (newStage) => {
@@ -45,9 +47,9 @@ class App extends Component {
   }
 
   modifyTotal = (order) => {
-    let totalAmount = (Math.floor(order.reduce((a, c) => 
+    let totalAmount = (Math.floor(order.reduce((a, c) =>
       a + (c.price * c.quantity)
-    , 0) * 100) / 100);
+      , 0) * 100) / 100);
     return totalAmount;
   }
 
@@ -60,7 +62,7 @@ class App extends Component {
         this.setState({ order: newItem, totalAmount: this.modifyTotal(newItem) })
       }
     } else {
-      $('#exampleModalLong .modal-body').html(`No es posible agregar mas de 100 productos`)
+      $('#exampleModalLong .modal-body').html(`It is not possible to add more than 100 items`)
       $('#exampleModalLong').modal('show')
     }
   }
@@ -90,10 +92,10 @@ class App extends Component {
   }
 
   handleConfirmOrder = () => {
-    $('#exampleModalLong .modal-body').html("Datos: <pre>" +
+    $('#exampleModalLong .modal-body').html("Data: <pre>" +
       JSON.stringify(this.state.personalInformation) +
       "</pre><br />" +
-      "Pedido: <pre>" + JSON.stringify(this.state.order) + "</pre>" +
+      "Order: <pre>" + JSON.stringify(this.state.order) + "</pre>" +
       "Total: <pre>" + this.state.totalAmount + "</pre>")
     $('#exampleModalLong').modal('show')
   }
@@ -102,14 +104,14 @@ class App extends Component {
   render() {
 
     const possiblesStages = [{
-      "menu": "Elegí tu delivery",
-      "module": <Elegi
+      "menu": "Pick a delivery",
+      "module": <PickStage
         handlePerformOrder={this.handlePerformOrder}
       />
     },
     {
-      "menu": "Realizá tu pedido",
-      "module": <Pedidos
+      "menu": "Make an order",
+      "module": <OrderStage
         selectedDelivery={this.state.selectedDelivery}
         handleChangeActiveStage={this.handleChangeActiveStage}
         changeCurrencyAndDecimalSeparator={this.changeCurrencyAndDecimalSeparator}
@@ -121,8 +123,8 @@ class App extends Component {
       />
     },
     {
-      "menu": "Completá tus datos",
-      "module": <Datos
+      "menu": "Fill your data",
+      "module": <PersonalInformation
         order={this.state.order}
         totalAmount={this.state.totalAmount}
         personalInformation={this.state.personalInformation}
@@ -138,7 +140,7 @@ class App extends Component {
       <div>
         <div className="container header">
           <div className="row">
-            <div className="col align-self-center titulo">Delivery Online</div>
+            <div className="col align-self-center titulo">Online Delivery</div>
             <div className="col"></div>
             <div className="col btn-toolbar menu" role="toolbar">
               <div className="btn-group btn-group-sm" role="group">
