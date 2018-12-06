@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Deliveries } from './Deliveries'
-import $ from 'jquery';
+import Popup from "reactjs-popup";
 
 export class PickStage extends Component {
   constructor(props) {
@@ -12,6 +12,9 @@ export class PickStage extends Component {
       deliveries: [],
       deliveriesFull: [],
       isDeliveriesLoaded: false,
+      modalShow: false,
+      modalTitle: null,
+      modalBody: null,
     }
   }
 
@@ -23,8 +26,10 @@ export class PickStage extends Component {
     fetch('/fakeAPI/deliveries.json')
       .then((response) => {
         if (response.status !== 200) {
-          $('#exampleModalLong .modal-body').html("Hubo un error en la obtención de los datos")
-          $('#exampleModalLong').modal('show')
+          this.setState({
+            modalBody: "Hubo un error en la obtención de los datos",
+            modalShow: true,
+          })
         }
         return response.json()
 
@@ -41,9 +46,18 @@ export class PickStage extends Component {
 
       })
       .catch((e) => {
-        $('#exampleModalLong .modal-body').html("Hubo un error en la obtención de los datos")
-        $('#exampleModalLong').modal('show')
+        this.setState({
+          modalBody: "Hubo un error en la obtención de los datos",
+          modalShow: true,
+        })
       })
+  }
+
+  openModal = () => {
+    this.setState({ modalShow: true })
+  }
+  closeModal = () => {
+    this.setState({ modalShow: false })
   }
 
   search = (q) => {
@@ -110,6 +124,16 @@ export class PickStage extends Component {
             /> : "Loading..."
           }
         </div>
+        <Popup
+          open={this.state.modalShow}
+          closeOnDocumentClick
+          onClose={this.closeModal}
+        >
+          <div className="modal2">
+            <button className="close" onClick={this.closeModal}>&times;</button>
+            {this.state.modalBody}
+          </div>
+        </Popup>
       </div>
     );
   }

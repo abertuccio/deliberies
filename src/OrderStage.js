@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import $ from 'jquery';
-// import 'bootstrap/dist/js/bootstrap.min.js';
 
 import { Order } from './Order'
 import { FaArrowCircleRight, FaSearchPlus } from 'react-icons/fa'
@@ -14,6 +12,9 @@ export class OrderStage extends Component {
       groups: [],
       items: [],
       isDeliveryLoaded: false,
+      modalShow: false,
+      modalTitle: null,
+      modalBody: null,
     }
   }
 
@@ -31,10 +32,10 @@ export class OrderStage extends Component {
     fetch('/fakeAPI/shops/' + this.props.selectedDelivery.route + '.json')
       .then((response) => {
         if (response.status !== 200) {
-          $('#exampleModalLong .modal-body').html(`Hubo un error en 
-                          la obtención de los datos 
-                          de <b>${this.props.selectedDelivery.route}</b>`)
-          $('#exampleModalLong').modal('show')
+          this.setState({
+            modalBody: "Hubo un error en la obtención de los datos",
+            modalShow: true,
+          })
         }
         return response.json()
       })
@@ -50,16 +51,24 @@ export class OrderStage extends Component {
         }, 200)
       }).catch((e) => {
         this.props.handleChangeActiveStage(0)
-        $('#exampleModalLong .modal-body').html(`Hubo un error en 
-                            la obtención de los datos 
-                            de <b>${this.props.selectedDelivery.route}</b>`)
-        $('#exampleModalLong').modal('show');
+
+        this.setState({
+          modalBody: "Hubo un error en la obtención de los datos",
+          modalShow: true,
+        })
       })
 
     // $("body").tooltip({
     //   selector: '[data-toggle="tooltip"]'
     // });
 
+  }
+
+  openModal = () => {
+    this.setState({ modalShow: true })
+  }
+  closeModal = () => {
+    this.setState({ modalShow: false })
   }
 
   handleSelectGroup = (activeGroup) => {

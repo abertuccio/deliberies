@@ -33,7 +33,7 @@ export class PersonalInformation extends Component {
                     value={this.props.personalInformation.nombre}
                     onChange={this.props.handleChangePersonalInformation}
                     type="text"
-                    name="nombre"
+                    name="firstName"
                     className="form-control form-control-sm"
                     id="nombre"
                     placeholder="First Name" />
@@ -46,7 +46,7 @@ export class PersonalInformation extends Component {
                     value={this.props.personalInformation.apellido}
                     onChange={this.props.handleChangePersonalInformation}
                     type="text"
-                    name="apellido"
+                    name="lastName"
                     className="form-control form-control-sm"
                     id="apellido"
                     placeholder="Last Name" />
@@ -59,7 +59,7 @@ export class PersonalInformation extends Component {
                     value={this.props.personalInformation.direccion}
                     onChange={this.props.handleChangePersonalInformation}
                     type="text"
-                    name="direccion"
+                    name="address"
                     className="form-control form-control-sm"
                     id="direccion"
                     placeholder="Address" />
@@ -72,7 +72,7 @@ export class PersonalInformation extends Component {
                     value={this.props.personalInformation.telefono}
                     onChange={this.props.handleChangePersonalInformation}
                     type="text"
-                    name="telefono"
+                    name="phoneNumber"
                     className="form-control form-control-sm"
                     id="telefono"
                     placeholder="Phone Number" />

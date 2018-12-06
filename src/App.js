@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import $ from 'jquery';
+import Popup from "reactjs-popup";
 import { PickStage } from './PickStage'
 import { OrderStage } from './OrderStage'
 import { PersonalInformation } from './PersonalInformation'
@@ -21,7 +21,17 @@ class App extends Component {
         "email": ""
       },
       isOrderAvailible: false,
+      modalShow: false,
+      modalTitle:null,
+      modalBody:null,
     }
+  }
+
+  openModal =()=>{
+    this.setState({ modalShow: true })
+  }
+  closeModal =()=>{
+    this.setState({ modalShow: false })
   }
 
   checkIfOrderAvailible = (newData) => {
@@ -54,7 +64,7 @@ class App extends Component {
   }
 
   handleAddItem = (item) => {
-    if (this.state.order.length < 101) {
+    if (this.state.order.length < 11) {
       item.quantity = 1
       item.subTotal = item.price
       if (!this.state.order.some((e) => e.idItem === item.idItem)) {
@@ -62,8 +72,9 @@ class App extends Component {
         this.setState({ order: newItem, totalAmount: this.modifyTotal(newItem) })
       }
     } else {
-      $('#exampleModalLong .modal-body').html(`It is not possible to add more than 100 items`)
-      $('#exampleModalLong').modal('show')
+      this.setState({modalBody:"It is not possible to add more than 10 items : )",
+                    modalShow:true,
+    })  
     }
   }
 
@@ -92,12 +103,13 @@ class App extends Component {
   }
 
   handleConfirmOrder = () => {
-    $('#exampleModalLong .modal-body').html("Data: <pre>" +
-      JSON.stringify(this.state.personalInformation) +
-      "</pre><br />" +
-      "Order: <pre>" + JSON.stringify(this.state.order) + "</pre>" +
-      "Total: <pre>" + this.state.totalAmount + "</pre>")
-    $('#exampleModalLong').modal('show')
+    this.setState({modalBody:"Data: <pre>" +
+    JSON.stringify(this.state.personalInformation) +
+    "</pre><br />" +
+    "Order: <pre>" + JSON.stringify(this.state.order) + "</pre>" +
+    "Total: <pre>" + this.state.totalAmount + "</pre>",
+    modalShow:true,
+}) 
   }
 
 
@@ -162,23 +174,17 @@ class App extends Component {
           </div>
         </div>
         {possiblesStages[this.state.activeStage].module}
-        <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div className="modal-dialog" role="document">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLongTitle">Delibery app</h5>
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                ...
-                  </div>
-              <div className="modal-footer">
-              </div>
-            </div>
+        <Popup
+          open={this.state.modalShow}
+          closeOnDocumentClick
+          onClose={this.closeModal}
+        >
+          <div className="modal2">
+            <button className="close" onClick={this.closeModal}>&times;</button>
+            {this.state.modalBody}
           </div>
-        </div>
+        </Popup>
+
       </div>
     );
   }
