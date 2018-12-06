@@ -1,10 +1,10 @@
-Download the proyect and install node https://nodejs.org/en/download/
+Download the project and install node https://nodejs.org/en/download/
 
-In the project directory, you can run:
+In the project directory, you could install all dependencies running:
 
 ### `npm install`
 
-that installs all dependencies
+To start the poject in a local server, you can run:
 
 ### `npm start`
 
