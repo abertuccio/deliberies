@@ -85,8 +85,10 @@ export class OrderStage extends Component {
                     {this.state.groups.map((e, i) =>
                       <button key={i}
                         className={"nav-link orderItem " + ((i === this.state.activeGroup) ? "active" : "")}
-                        onClick={() => this.handleSelectGroup(i)} >
-                        {e}
+                        onClick={() => this.handleSelectGroup(i)} 
+                        title={e}
+                        >
+                        {e.slice(0,10)+"..."} 
                       </button>
                     )}
                   </div>
