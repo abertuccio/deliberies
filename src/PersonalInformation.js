@@ -106,7 +106,7 @@ export class PersonalInformation extends Component {
               <Col xs="7">
               </Col>
               <Col xs="5">
-                <button onClick={() => this.props.handleChangeActiveStage(1)} type="button" className="btn btn-secondary btn-sm back">Atrás</button>
+                <button onClick={() => this.props.handleChangeActiveStage(1)} type="button" className="btn btn-secondary btn-sm back">Back</button>
                 <button onClick={(this.props.isOrderAvailible) ? this.props.handleConfirmOrder : () => { }}
                   type="button"
                   className={"btn btn-secondary btn-sm forward " + ((this.props.isOrderAvailible) ? "" : "disabled")}
