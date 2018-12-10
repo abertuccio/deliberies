@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container, Row, Col} from 'reactstrap';
 import PropTypes from 'prop-types';
 
 import { Order } from './Order'
@@ -20,10 +21,10 @@ export class PersonalInformation extends Component {
   render() {
 
     return (
-      <div className="container stageContainer datos">
+      <Container className="stageContainer datos">
         <h5>Fill your data!</h5>
-        <div className="row">
-          <div className="col-6">
+        <Row>
+          <Col xs="6">
 
             <div className="deliverOrderForm">
               <div className="form-group row">
@@ -65,9 +66,9 @@ export class PersonalInformation extends Component {
                     placeholder="Address" />
                 </div>
               </div>
-              <div className="form-group row">
+              <Row className="form-group">
                 <label htmlFor="telefono" className="col-sm-2 col-form-label">Phone Number</label>
-                <div className="col-sm-10">
+                <Col xs="10">
                   <input
                     value={this.props.personalInformation.telefono}
                     onChange={this.props.handleChangePersonalInformation}
@@ -76,11 +77,11 @@ export class PersonalInformation extends Component {
                     className="form-control form-control-sm"
                     id="telefono"
                     placeholder="Phone Number" />
-                </div>
-              </div>
-              <div className="form-group row">
+                </Col>
+              </Row>
+              <Row className="form-group">
                 <label htmlFor="email" className="col-sm-2 col-form-label">E-mail</label>
-                <div className="col-sm-10">
+                <Col xs="10">
                   <input
                     value={this.props.personalInformation.email}
                     onChange={this.props.handleChangePersonalInformation}
@@ -89,36 +90,34 @@ export class PersonalInformation extends Component {
                     className="form-control form-control-sm"
                     id="email"
                     placeholder="E-mail " />
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
 
-          </div>
-          <div className="col-6">
+          </Col>
+          <Col xs="6">
             <Order
               editable={false}
               order={this.props.order}
               changeCurrencyAndDecimalSeparator={this.props.changeCurrencyAndDecimalSeparator}
               totalAmount={this.props.totalAmount}
             />
-            <div className="row buttonsOrder">
-              <div className="col-7">
-              </div>
-              <div className="col-5 ">
+            <Row className="buttonsOrder">
+              <Col xs="7">
+              </Col>
+              <Col xs="5">
                 <button onClick={() => this.props.handleChangeActiveStage(1)} type="button" className="btn btn-secondary btn-sm back">Atrás</button>
-
-
                 <button onClick={(this.props.isOrderAvailible) ? this.props.handleConfirmOrder : () => { }}
                   type="button"
                   className={"btn btn-secondary btn-sm forward " + ((this.props.isOrderAvailible) ? "" : "disabled")}
                 >
                   Make the order
                 </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

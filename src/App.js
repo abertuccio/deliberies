@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { Container, Row, Col } from 'reactstrap';
 import Popup from "reactjs-popup";
 import { PickStage } from './PickStage'
 import { OrderStage } from './OrderStage'
@@ -150,11 +150,11 @@ class App extends Component {
 
     return (
       <div>
-        <div className="container header">
-          <div className="row">
-            <div className="col align-self-center titulo">Online Delivery</div>
-            <div className="col"></div>
-            <div className="col btn-toolbar menu" role="toolbar">
+        <Container className="header">
+          <Row>
+            <Col className="align-self-center titulo">Online Delivery</Col>
+            <Col></Col>
+            <Col className="btn-toolbar menu" role="toolbar">
               <div className="btn-group btn-group-sm" role="group">
 
                 {possiblesStages.map((s, i) =>
@@ -168,11 +168,11 @@ class App extends Component {
                 )}
 
               </div>
-            </div>
-          </div>
-          <div className="row">
-          </div>
-        </div>
+            </Col>
+          </Row>
+          <Row>
+          </Row>
+        </Container>
         {possiblesStages[this.state.activeStage].module}
         <Popup
           open={this.state.modalShow}

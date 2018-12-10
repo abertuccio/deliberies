@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container} from 'reactstrap';
 import PropTypes from 'prop-types';
 
 export class Deliveries extends Component {
@@ -16,7 +17,7 @@ export class Deliveries extends Component {
     let rDesc = new RegExp("(" + this.props.searchDescription + ")", "gi")
 
     return (
-      <div className="container">
+      <Container>
         <div className="d-flex flex-wrap" >
           {(this.props.deliveries) ? this.props.deliveries.map((e, i) =>
             <div key={i}
@@ -43,7 +44,7 @@ export class Deliveries extends Component {
             </div>
           ) : ""}
         </div>
-      </div>
+      </Container>
     );
   }
 }   

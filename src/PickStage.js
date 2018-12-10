@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container, Row, Col} from 'reactstrap';
 import PropTypes from 'prop-types';
 import { Deliveries } from './Deliveries'
 import Popup from "reactjs-popup";
@@ -87,10 +88,10 @@ export class PickStage extends Component {
 
   render() {
     return (
-      <div className="container stageContainer eleji">
+      <Container className="stageContainer eleji">
         <h5>Filters:</h5>
-        <div className="row formularioBusqueda">
-          <div className="col">
+        <Row className="formularioBusqueda">
+          <Col>
             <label htmlFor="nameSearch">Name:</label>
             <input
               type="text"
@@ -100,8 +101,8 @@ export class PickStage extends Component {
               value={this.state.searchName}
               onChange={this.handleChangeSearchName}
             />
-          </div>
-          <div className="col">
+          </Col>
+          <Col>
             <label htmlFor="descriptionSearch">Description:</label>
             <input
               type="text"
@@ -111,9 +112,9 @@ export class PickStage extends Component {
               value={this.state.searchDescription}
               onChange={this.handleChangeSearchDescription}
             />
-          </div>
-          <div className="col-6"></div>
-        </div>
+          </Col>
+          <Col xs="6"></Col>
+        </Row>
         <div className="resultadoDeliveries">
           {(this.state.isDeliveriesLoaded) ?
             <Deliveries
@@ -134,7 +135,7 @@ export class PickStage extends Component {
             {this.state.modalBody}
           </div>
         </Popup>
-      </div>
+      </Container>
     );
   }
 }

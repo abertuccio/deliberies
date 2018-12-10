@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container, Row, Col} from 'reactstrap';
 import PropTypes from 'prop-types';
 
 import { Order } from './Order'
@@ -57,11 +58,6 @@ export class OrderStage extends Component {
           modalShow: true,
         })
       })
-
-    // $("body").tooltip({
-    //   selector: '[data-toggle="tooltip"]'
-    // });
-
   }
 
   openModal = () => {
@@ -78,13 +74,13 @@ export class OrderStage extends Component {
   render() {
 
     return (
-      <div className="container stageContainer pedidos">
+      <Container className="stageContainer pedidos">
         <h5>Make your order!</h5>
-        <div className="row">
-          <div className="col-6">
+        <Row>
+          <Col xs="6">
             {(this.state.isDeliveryLoaded) ?
-              <div className="row">
-                <div className="col-3" id="orderGroups">
+              <Row>
+                <Col xs="3" id="orderGroups">
                   <div className="nav flex-column nav-tabs" id="orderGroup">
                     {this.state.groups.map((e, i) =>
                       <button key={i}
@@ -94,8 +90,8 @@ export class OrderStage extends Component {
                       </button>
                     )}
                   </div>
-                </div>
-                <div className="col-9">
+                </Col>
+                <Col xs="9">
                   <div className="tab-content">
                     {this.state.groups.map((e, i) =>
                       <div key={i} className={"tab-pane fade show " + ((this.state.activeGroup === i) ? "active" : "")}>
@@ -124,11 +120,11 @@ export class OrderStage extends Component {
                       </div>
                     )}
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
               : "Cargando..."}
-          </div>
-          <div className="col-6">
+          </Col>
+          <Col xs="6">
             <Order
               editable={true}
               order={this.props.order}
@@ -137,19 +133,19 @@ export class OrderStage extends Component {
               handleChangeQuantity={this.props.handleChangeQuantity}
               totalAmount={this.props.totalAmount}
             />
-            <div className="row buttonsOrder">
-              <div className="col-8">
-              </div>
-              <div className="col-4">
+            <Row className="buttonsOrder">
+              <Col xs="8">
+              </Col>
+              <Col xs="4">
                 <button onClick={() => this.props.handleChangeActiveStage(0)} type="button" className="btn btn-secondary btn-sm back">Back</button>
                 <button onClick={(!this.props.order.length) ? () => { } : () => this.props.handleChangeActiveStage(2)}
                   type="button"
                   className={"btn btn-secondary btn-sm forward " + ((!this.props.order.length) ? "disabled" : "")} >Next</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

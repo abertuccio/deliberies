@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Table} from 'reactstrap';
 import PropTypes from 'prop-types';
 import { FaArrowCircleLeft } from 'react-icons/fa'
 
@@ -16,7 +17,7 @@ export class Order extends Component {
   render() {
 
     return (
-      <table className="table table-striped" id="mealOrder">
+      <Table className="table-striped" id="mealOrder">
         <thead>
           <tr>
             <th style={{ width: '50%' }}>Product</th>
@@ -52,7 +53,7 @@ export class Order extends Component {
             <td>{this.props.changeCurrencyAndDecimalSeparator(this.props.totalAmount)}</td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     );
   }
 }
